@@ -91,3 +91,38 @@ a,
   padding: 36px;
   margin: 0 auto;
 }
+
+.random-container {
+  padding: 12px 0 36px;
+}
+
+.random-title {
+  margin-bottom: 36px;
+  color: var(--dark-bg);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.box {
+  flex: 0 1 200px;
+}
+
+.box-image {
+  height: 200px;
+  margin-bottom: 12px;
+  border: 4px solid var(--cta-blue);
+  border-radius: 12px;
+}
+
+.box-description {
+  color: var(--dark-bg);
+  text-align: center;
+}
