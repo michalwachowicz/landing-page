@@ -189,3 +189,14 @@ a,
   color: var(--light-text);
   border: 2px solid var(--light-text);
 }
+
+footer {
+  padding: 36px 0;
+  color: var(--light-text);
+  background-color: var(--dark-bg);
+  text-align: center;
+}
+
+footer > p:first-child {
+  margin-bottom: 4px;
+}
