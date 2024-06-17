@@ -57,10 +57,29 @@ a,
   font-size: 18px;
 }
 
+.header-title,
+.header-description {
+  margin-bottom: 12px;
+}
+
 .header-logo {
   color: var(--light-text);
   font-size: 24px;
   font-weight: 700;
+}
+
+.header-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.header-placeholder {
+  flex: 1 1 350px;
+}
+
+.header-image {
+  flex: 1 1 450px;
 }
 
 .singup-btn {
