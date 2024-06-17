@@ -39,12 +39,6 @@ a {
   background-color: var(--dark-bg);
 }
 
-.header-content {
-  max-width: 1200px;
-  padding: 36px;
-  margin: 0 auto;
-}
-
 .header-title {
   color: var(--light-text);
   font-size: 48px;
@@ -90,4 +84,10 @@ a,
   cursor: pointer;
   background-color: var(--cta-blue);
   font-size: 18px;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  padding: 36px;
+  margin: 0 auto;
 }
